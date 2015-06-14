@@ -1,5 +1,5 @@
 {
-  "name": "kingDOM",
+  "name": "king-dom",
   "version": "1.0.0",
   "description": "The most useless DOM abstraction ever.",
   "main": "index.js",
