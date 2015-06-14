@@ -22,9 +22,9 @@
           describe('kingDOM', function () {
             it('should work', function () {
               var actual = kingDOM('#mocha');
-              var expected = document.getElementById('mocha');
+              var expected = [document.getElementById('mocha')];
 
-              assert.strictEqual(actual, expected);
+              assert.deepEqual(actual, expected);
             });
           });
 
