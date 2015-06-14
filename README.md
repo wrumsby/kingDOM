@@ -6,7 +6,7 @@ Please don't use this.
 
 ## Installing
 
-### via Bower
+With [Bower](http://bower.io/):
 
 ```bash
 bower install king-dom --save

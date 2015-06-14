@@ -1,6 +1,6 @@
 {
   "name": "king-dom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "Walter Rumsby"
   ],
@@ -24,7 +24,7 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "package.json"
   ],
   "devDependencies": {
     "requirejs": "~2.1.18",
