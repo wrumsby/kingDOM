@@ -1,0 +1,34 @@
+{
+  "name": "kingDOM",
+  "version": "1.0.0",
+  "authors": [
+    "Walter Rumsby"
+  ],
+  "description": "The most useless DOM abstraction ever.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wrumsby/kingDOM.git"
+  },
+  "main": "index.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "dom",
+    "abstraction",
+    "terrible"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "requirejs": "~2.1.18",
+    "chai": "~3.0.0",
+    "mocha": "~2.2.5"
+  }
+}

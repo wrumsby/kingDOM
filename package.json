@@ -1,0 +1,31 @@
+{
+  "name": "kingDOM",
+  "version": "1.0.0",
+  "description": "The most useless DOM abstraction ever.",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^0.22.1"
+  },
+  "devDependencies": {
+    "mocha-phantomjs": "^3.5.3",
+    "phantomjs": "^1.9.17"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "./node_modules/.bin/mocha-phantomjs -R dot test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wrumsby/kingDOM.git"
+  },
+  "keywords": [
+    "dom",
+    "abstraction",
+    "terrible"
+  ],
+  "author": "Walter Rumsby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wrumsby/kingDOM/issues"
+  }
+}
